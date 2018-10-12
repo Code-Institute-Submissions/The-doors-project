@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+.navbar {
+    background-color: #000000;
+    margin: -1px;
+}
+
+.logoname {
+    font-family: 'Black Ops One';
+    margin-top: 6px;
+    font-size: 25px;
+    color: white;
+}
+
+.nav.nav-pills {
+    background-color: pink;
+}
+
+.nav.nav-pills a {
+}
+
+.active.home {
+    margin-left: 300px;
+}
+
+
+.background {
+    height: 150vh;
+    background: url(images/The_Doors_1968.JPG) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    justify-content: center;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    border: 0;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: -40px;
+}
+
+.welcome-box {
+    height: 500px;
+    width: 100vw;
+    background-color: black;
+    transform: translateY(800px);
+    margin-left: 20px;
+}
+
+.welcoming {
+    background-color: gray;
+    
+    height: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fdfdfd;
+    font-size: larger;
+    margin-left: 20px;
+    
+    
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #882525;
+}
+
