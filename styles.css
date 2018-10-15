@@ -1,82 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
-
-.navbar {
-    background-color: #000000;
-    margin: -1px;
+#heading {
+    background-color: black;
 }
 
-.logoname {
-    font-family: 'Black Ops One';
-    margin-top: 6px;
-    font-size: 25px;
-    color: white;
+#social {
+    font-size: 5vh;
 }
 
-.nav.nav-pills {
-    background-color: pink;
+footer {
+    min-height: 150px;
 }
 
-.nav.nav-pills a {
-}
-
-.active.home {
-    margin-left: 300px;
-}
-
-
-.background {
-    height: 150vh;
-    background: url(images/The_Doors_1968.JPG) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-
-    position: relative;
-    justify-content: center;
-}
-
-.navbar {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
+.img-responsive {
     width: 100%;
-    z-index: 1;
+    padding-left: 40px;
+    padding: 40px;
     background-color: black;
-    border: 0;
 }
 
-.navbar-default .navbar-toggle {
-    margin-top: -40px;
+#welcome {
+    background-color: blue;
+    height: 100px;
 }
 
-.welcome-box {
-    height: 500px;
-    width: 100vw;
-    background-color: black;
-    transform: translateY(800px);
-    margin-left: 20px;
+/*#logo {*/
+/*    transform: translateX(100%);*/
+/*}*/
+
+.container-fluid.door{
+    background-color: #d2d2d2;
+    padding: 10px;
+    width: 100%;
 }
 
-.welcoming {
-    background-color: gray;
-    
-    height: 20px;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #fdfdfd;
-    font-size: larger;
-    margin-left: 20px;
-    
-    
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-    background-color: #882525;
-}
-
+@media(min-width: 992px) {
+    #logo {
+    transform: translateX(100%);}
+    }
