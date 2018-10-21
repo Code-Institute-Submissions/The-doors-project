@@ -1,38 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+span {
+    text-align: center;
+}
+
+/* -------------------------------------------------------------------nav -----*/
 #heading {
     background-color: black;
+    z-index: 2;
+    top: 0;
+    position: fixed;
+    width: 100%;
 }
 
 #social {
     font-size: 5vh;
+    float: right;
 }
 
-footer {
-    min-height: 150px;
-}
 
-.img-responsive {
+.img-responsive.picture {
     width: 100%;
     padding-left: 40px;
     padding: 40px;
     background-color: black;
 }
 
-#welcome {
-    background-color: blue;
-    height: 100px;
+/* --------------------------------------------------------------------Welcome box */
+.black {
+    background-color: black;
+    height: 25vw;
+    text-align: center;
 }
+
+#Welcoming {
+    font-family: 'Black Ops One', cursive;
+    font-size: 15vw;
+    color: white;
+    text-align: center;
+    /*margin-top: 7%;*/
+    
+}
+/* --------------------------------------------------------------------/welcome box */
+
+
+/* --------------------------------------------------------------------About ------ */
+.white {
+    background-color: #d2d2d2;
+    height: 25vw;
+    text-align: center;
+}
+
+.whitebox {
+    font-family: 'Black Ops One', cursive;
+    font-size: 15vw;
+    color: black;
+    text-align: center;
+    /*margin-top: 13%;*/
+    
+}
+    
+.whitebox:hover {
+    text-decoration: none;
+    color: #394c5d;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.whitetext {
+    top: 10%;
+    float: inherit;
+}
+
+.blackbox {
+    font-family: 'Black Ops One', cursive;
+    font-size: 15vw;
+    color: white;
+    text-align: center;
+    /*margin-top: 13%;*/
+}    
+.blacktext {
+    top: 10%;
+    float: inherit;
+}
+
+.blackbox:hover {
+    text-decoration: none;
+    color: #4e5248;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#video {
+    margin-top: 5%;
+}
+
+    
 
 /*#logo {*/
-/*    transform: translateX(100%);*/
+/*    margin-left: 35%;*/
+    
 /*}*/
 
-.container-fluid.door{
-    background-color: #d2d2d2;
-    padding: 10px;
-    width: 100%;
-}
+/*row .logo {*/
+/*    background-color: #d2d2d2;*/
+/*}*/
 
-@media(min-width: 992px) {
-    #logo {
-    transform: translateX(100%);}
-    }
+/*@media(max-width: 767px) {*/
+/*    #logo {*/
+/*        padding-left: -30px;*/
+/*    }*/
+/*    }*/
