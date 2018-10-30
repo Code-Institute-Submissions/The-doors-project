@@ -57,11 +57,8 @@ span {
 
 
 /* --------------------------------------------------------------------Welcome box */
-.black {
-    background-color: black;
-    height: 25vw;
-    text-align: center;
-}
+
+
 
 #Welcoming {
     font-family: 'Black Ops One', cursive;
@@ -79,7 +76,7 @@ span {
 /* --------------------------------------------------------------------/welcome box */
 
 
-/* --------------------------------------------------------------------About ------ */
+/* --------------------------------------------------------------------white/black panels ------ */
 .white {
     background-color: #d2d2d2;
     height: 25vw;
@@ -107,7 +104,11 @@ span {
     top: 10%;
     float: inherit;
 }
-
+.black {
+    background-color: black;
+    height: 25vw;
+    text-align: center;
+}
 .blackbox {
     font-family: 'Black Ops One', cursive;
     font-size: 15vw;
@@ -133,5 +134,77 @@ span {
     margin-top: 5%;
 }
 
-    
+/* ------------------------------------------------------------------------About Page---------- */
 
+.band-profile {
+    float: left;
+    border-radius: 45%;
+    height: 25vh;
+    /*width: 100%;*/
+    width: 200px;
+    transform: translateY(80px);
+}
+
+.about-text {
+    font-weight: 200;
+    font-family: monospace;
+    font-size: small;
+}
+
+.about-head {
+    margin-top: 10vh;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: medium;
+}
+
+/* --------------------------------------------------------------------white/black panels  for about page------ */
+.white-about {
+    background-color: #d2d2d2;
+    height: 25vw;
+    text-align: center;
+    overflow-y: scroll;
+    font-family: monospace;
+}
+
+.whitebox-about {
+    font-family: 'Black Ops One', cursive;
+    font-size: 15vw;
+    color: black;
+    text-align: center;
+    /*margin-top: 13%;*/
+    
+}
+.whitetext-about {
+    top: 10%;
+    float: inherit;
+}
+.black-about {
+    background-color: black;
+    height: 25vw;
+    text-align: center;
+    overflow-y: scroll;
+    color: white;
+    font-family: monospace;
+}
+
+.blackbox-about {
+    font-family: 'Black Ops One', cursive;
+    font-size: 15vw;
+    color: white;
+    text-align: center;
+    /*margin-top: 13%;*/
+}    
+.blacktext {
+    top: 10%;
+    float: inherit;
+}
+
+
+/* ----------------------------------------------------------Video page ------------------------*/ 
+
+.video-head {
+    font-family: monospace;
+    margin-top: 10%;
+}
