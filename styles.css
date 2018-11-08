@@ -5,17 +5,22 @@ span {
 }
 
 /* -------------------------------------------------------------------nav -----*/
-#heading {
+.heading {
     background-color: black;
     z-index: 2;
     top: 0;
     position: fixed;
     width: 100%;
+    background-size: auto;
+}
+.empty {
+    height: 8.5vh;
 }
 
-#social {
+.social {
     font-size: 5vh;
-    float: right;
+    float: left;
+    
 }
 
 .fa {
@@ -53,7 +58,17 @@ span {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
+ .pages {
+     float: right;
+ }
+ 
+ .navdoor {
+    color: aliceblue;
+    float: left;
+    font-size: 4vh;
+    margin-top: 1.3vh;
+    font-family: 'Black Ops One' , monospace;
+ }
 
 
 /* --------------------------------------------------------------------Welcome box */
@@ -206,5 +221,74 @@ span {
 
 .video-head {
     font-family: monospace;
+    font-size: 3vw;
     margin-top: 10%;
+    margin-left: 10%;
+    color: #d2d2d2;
+    
+    
+}
+
+.videocolright {
+    float: right;
+}
+
+/*-------------------------------------------------------Contact ------------------------------*/
+
+.form-background {
+    background-color: #d2d2d2;
+}
+
+.center-form {
+    margin-top: 10vh;
+    padding-bottom: 3vh;
+}
+
+.form-control {
+    margin-top: 5vh;
+}
+
+.address {
+    color: white;
+    font-size: medium;
+    margin-top: 5%;
+}
+
+/*------------------------------------------library ------------*/
+
+
+
+.covers {
+    margin-left: 3vw;
+    margin-top: 4vh;
+    height: 30vh;
+    max-width: 80%;
+}
+
+.covertable {
+    overflow-y: scroll;
+    height: 20vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.blacktitle { 
+    background: black;
+    color: white;
+    font-family: monospace;
+}
+
+.list-table {
+    font-size: 2vh;
+    height: 24vw;
+    overflow-y: scroll;
+}
+
+.container-fluid .whitetitle{ 
+    background: #d2d2d2;
+    color: black;
+    font-family: monospace;
 }
