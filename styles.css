@@ -4,6 +4,17 @@ span {
     text-align: center;
 }
 
+html { height: 100%; }
+body {
+    min-height:100%; 
+    position:relative;
+    display: grid;
+}
+.footer { 
+    left: 0 ; right: 0; bottom: 0; 
+     
+}
+
 /* -------------------------------------------------------------------nav -----*/
 .heading {
     background-color: black;
@@ -12,6 +23,7 @@ span {
     position: fixed;
     width: 100%;
     background-size: auto;
+    height: 8vh;
 }
 .empty {
     height: 8.5vh;
@@ -39,14 +51,16 @@ span {
 
 .img-responsive.picture {
     width: 100%;
-    padding-left: 40px;
-    padding: 40px;
     background-color: black;
+    height: 70vh;
+}
+.navright {
+     float: right;
 }
 
 .navtext li a {
     font-family: 'Black Ops One', cursive;
-    font-size: 4vh;
+    font-size: 3vh;
     color: #d2d2d2;
 }
 
@@ -69,6 +83,9 @@ span {
     margin-top: 1.3vh;
     font-family: 'Black Ops One' , monospace;
  }
+.nav-space {
+    height: 5vh;
+}
 
 
 /* --------------------------------------------------------------------Welcome box */
@@ -232,6 +249,12 @@ span {
 .videocolright {
     float: right;
 }
+.video-white {
+    background-color: #d2d2d2;
+    height: auto;
+    text-align: center;
+}
+
 
 /*-------------------------------------------------------Contact ------------------------------*/
 
@@ -291,4 +314,19 @@ span {
     background: #d2d2d2;
     color: black;
     font-family: monospace;
+}
+
+/* ---------------------------------------footer -------------*/
+
+/*footer {*/
+/*    min-height: 120px;*/
+/*    margin: 0;*/
+/*}*/
+
+/* -------------------------------- Media ------------------------------ */
+
+@media(min-width: 768px) {
+    .videorow {
+        height: auto;
+    }
 }
