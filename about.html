@@ -6,20 +6,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title> about </title>
 </head>
 
 <body>
-    <header>
+    <header class="header-mobile">
         <nav>
-            <div class="container-fluid" style="height: 8vh;">
-                <div class="col-lg-12 nav-space">
+            <div class="container-fluid hidden-xs hidden-sm" style="height: 8vh;">
+                <div class="col-xs-12 nav-space">
                     <div class="nav-space">
 
                     </div>
                 </div>
             </div>
-            <div class="container-fluid  ">
-                <div class="row heading">
+            <div class="container-fluid" style="background: black;">
+                <div class="row heading hidden-xs hidden-sm">
                     <div class="col-md-5 hidden-xs hidden-sm">
                         <span class="navdoor"> The Doors </span>
                         <ul class="nav nav-pills navtext social-links social">
@@ -31,32 +32,25 @@
                     <div class="col-md-7  pages hidden-xs hidden-sm ">
                         <ul class="nav nav-pills navtext navright">
                             <li role="presentation"><a href="index.html">Home</a></li>
+                            <li role="presentation"><a href="library.html">Library</a></li>
+                            <li role="presentation"><a href="videos.html">Videos</a></li>
                             <li role="presentation"><a href="contact.html">Contact</a></li>
-                            <li role="presentation"><a href="about.html">about</a></li>
-                            <li role="presentation"><a href="videos.html">videos</a></li>
                         </ul>
                     </div>
+                </div>
+                <div class="row heading-mobile hidden-md hidden-lg">
                     <div class="col-sm-12 hidden-md hidden-lg">
                         <ul class="nav nav-pills navtext ">
-                            <li role="presentation"><a href="index.html">Home</a></li>
-                            <li role="presentation"><a href="contact.html">Contact</a></li>
-                            <li role="presentation"><a href="about.html">about</a></li>
-                            <li role="presentation"><a href="videos.html">videos</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="library.html">Library</a></li>
+                            <li><a href="videos.html">Videos</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
-
                 </div>
             </div>
             <!--- mosty made using bootstrap navbar tools -->
         </nav>
-        <div class="container-fluid">
-            <div class="row" style="background-color: #d2d2d2;">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4">
-                    <img src="images/logo.png" class="img-responsive" alt="Responsive image"></img>
-                </div>
-            </div>
-       </div>
     </header>
     <section>
         <div class="container-fluid">
@@ -102,7 +96,7 @@
         </div>
         <!------- Ray Manzarek ------->
         <div class="container-fluid">
-            <div class="row" id="#">
+            <div class="row">
                 <div class="col-lg-12 black-about">
                     <div class="row">
                         <div class="col-xs-2">
@@ -126,7 +120,7 @@
         </div>
         <!------- John densmore --------->
         <div class="container-fluid">
-            <div class="row" id="#">
+            <div class="row">
                 <div class="col-lg-12 white-about">
                     <div class="row">
                         <div class="col-xs-2">
@@ -150,7 +144,7 @@
         </div>
         <!------- robby Krieger----------------------->
         <div class="container-fluid">
-            <div class="row" id="#">
+            <div class="row">
                 <div class="col-lg-12 black-about">
                     <div class="row">
                         <div class="col-xs-2">
@@ -173,7 +167,15 @@
         </div>
 
     </section>
-    <!------------ Possible Add social links, --------->
+    <footer class="footer">
+        <div class="col-md-12 white-footer">
+            <img src="images/logo.png" class="img-responsive-footer" alt="Responsive image"> <!---- image taken from https://seeklogo.net/wp-content/uploads/2013/01/doors-logo-vector.png --->
+        </div>
+
+
+    </footer>
+    
+
 </body>
 
 </html>

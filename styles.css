@@ -9,10 +9,7 @@ body {
     min-height:100%; 
     position:relative;
     display: grid;
-}
-.footer { 
-    left: 0 ; right: 0; bottom: 0; 
-     
+    background: black;
 }
 
 /* -------------------------------------------------------------------nav -----*/
@@ -21,6 +18,13 @@ body {
     z-index: 2;
     top: 0;
     position: fixed;
+    width: 100%;
+    background-size: auto;
+    height: 8vh;
+}
+.heading-mobile {
+    background-color: black;
+    top: 0;
     width: 100%;
     background-size: auto;
     height: 8vh;
@@ -111,7 +115,7 @@ body {
 /* --------------------------------------------------------------------white/black panels ------ */
 .white {
     background-color: #d2d2d2;
-    height: 25vw;
+    height: 20vh;
     text-align: center;
 }
 
@@ -138,7 +142,7 @@ body {
 }
 .black {
     background-color: black;
-    height: 25vw;
+    height: 20vh;
     text-align: center;
 }
 .blackbox {
@@ -162,9 +166,6 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
-#video {
-    margin-top: 5%;
-}
 
 /* ------------------------------------------------------------------------About Page---------- */
 
@@ -180,7 +181,7 @@ body {
 .about-text {
     font-weight: 200;
     font-family: monospace;
-    font-size: small;
+    font-size: 2vh;
 }
 
 .about-head {
@@ -188,7 +189,7 @@ body {
     color: white;
     font-family: monospace;
     font-weight: bold;
-    font-size: medium;
+    font-size: 2vh;
 }
 
 /* --------------------------------------------------------------------white/black panels  for about page------ */
@@ -235,6 +236,22 @@ body {
 
 
 /* ----------------------------------------------------------Video page ------------------------*/ 
+.video-top {
+    font-family: monospace; 
+    text-align: center;
+    font-size: 5vh;
+    padding-top: 6vh;
+    color: black;
+    
+}
+.video-top-link {
+    font-family: monospace; 
+    text-align: center;
+    font-size: 5vh;
+    padding-top: 6vh;
+    color: blue;
+    
+}
 
 .video-head {
     font-family: monospace;
@@ -249,10 +266,24 @@ body {
 .videocolright {
     float: right;
 }
-.video-white {
-    background-color: #d2d2d2;
-    height: auto;
+
+.black-video {
+    background-color: black;
+    height: 30vh;
+    
     text-align: center;
+}
+
+.white-video {
+    background-color: #d2d2d2;
+    height: 30vh;
+    
+    text-align: center;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -263,12 +294,14 @@ body {
 }
 
 .center-form {
-    margin-top: 10vh;
     padding-bottom: 3vh;
 }
 
 .form-control {
     margin-top: 5vh;
+    display: inline;
+    font-size: 4vh;
+    height: 6vh;
 }
 
 .address {
@@ -310,7 +343,7 @@ body {
     overflow-y: scroll;
 }
 
-.container-fluid .whitetitle{ 
+.whitetitle{ 
     background: #d2d2d2;
     color: black;
     font-family: monospace;
@@ -318,15 +351,53 @@ body {
 
 /* ---------------------------------------footer -------------*/
 
-/*footer {*/
-/*    min-height: 120px;*/
-/*    margin: 0;*/
-/*}*/
+.footer { 
+    left: 0 ; right: 0; bottom: 0;
+    background: #d2d2d2;
+     
+}
+
+.img-responsive-footer {
+    display: inline;
+    max-width: 100%;
+    height: auto;
+}
+
+.white-footer {
+    background-color: #d2d2d2;
+    height: auto;
+    
+    text-align: center;
+}
 
 /* -------------------------------- Media ------------------------------ */
 
 @media(min-width: 768px) {
-    .videorow {
-        height: auto;
+    .header-mobile {
+        height: 7vh;
+        background: black;  }
+} 
+        /* medias for tabel users */ 
+@media(min-width: 992px) { 
+    .navtext li a {
+        font-size: 2vh;
+    }
+    .navdoor {
+        font-size: 2vh;
+    }
+    .heading {
+        height: 6vh;
+    }
+}
+
+@media(min-width: 1351px) {
+    .navtext li a {
+        font-size: 3vh;
+    }
+    .navdoor {
+        font-size: 4vh;
+    }
+    .heading {
+        height: 8vh;
     }
 }
