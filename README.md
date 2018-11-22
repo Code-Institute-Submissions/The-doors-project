@@ -40,8 +40,8 @@ Left to Implement;
 
 <h2> Technologies Used <h2>
 
-1. Bootstrap for its simple and ease of use for me and i most familar with it by now
-2.  MaxCDN for a java script on advice for my mentor 
+ 1.Bootstrap for its simple and ease of use for me and i most familar with it by now
+ 2.MaxCDN for a java script on advice for my mentor 
 
 <h2> Testing </h2> 
 
@@ -52,7 +52,21 @@ work on a phone and the speed at which everything loads at.
 Then secondly using both html and css validators, while alot of warning and errors came up due to using bootstrap 
 codes, there was some things it told me that helped out, empty id's used and unnecessary code leftovers (e.g extra /div's' that were forgotten.)
 
-<h3> Deployment <h3>
+<h2> Deployment </h2>
 
+will be on git hub, other then that there wasnt really much else i did, this part might be updated later on when i know more about deployment
+
+<h2> Credits <h2>
+
+<h3> all info for the about page was taken from </h3> 
+https://www.thedoors.com/
+<h3> alot of info also taken from the wiki </h3> 
+https://en.wikipedia.org/wiki/The_Doors
+<h3> all the videos used taken from their offical youtube  </h3> 
+https://www.youtube.com/channel/UCYgJ2M1mq8Ae0QOm_VQU4VQ 
+
+<h3> Acknowledgements </h3>
+I received inspiration for this project from sites given to me by Victor Miclovich as well as his advice
+mainly http://thekills.tv/
 
 
