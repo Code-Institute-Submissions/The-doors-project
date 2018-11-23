@@ -59,7 +59,7 @@ codes, there was some things it told me that helped out, empty id's used and unn
 
 <h2> Deployment </h2>
 
-will be on git hub, other then that there wasnt really much else i did, this part might be updated later on when i know more about deployment
+will be on git hub via the git pages for now 
 
 <h2> Credits <h2>
 
