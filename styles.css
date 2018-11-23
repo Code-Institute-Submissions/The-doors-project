@@ -192,6 +192,25 @@ body {
     font-size: 2vh;
 }
 
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 12px;
+height: 12px;
+}
+
+::-webkit-scrollbar-track {
+background: #c8cca8;
+}
+
+::-webkit-scrollbar-thumb {
+background:  #616161;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #2f2f2f
+}
+
 /* --------------------------------------------------------------------white/black panels  for about page------ */
 .white-about {
     background-color: #d2d2d2;
@@ -244,13 +263,18 @@ body {
     color: black;
     
 }
+
+.white-video-top {
+    background-color: #d2d2d2;
+    text-align: center;
+    
+}
 .video-top-link {
     font-family: monospace; 
     text-align: center;
-    font-size: 5vh;
-    padding-top: 6vh;
+    font-size: 7rem;
     color: black;
-    
+    text-decoration: underline;
 }
 
 .video-head {
@@ -270,7 +294,6 @@ body {
 .black-video {
     background-color: black;
     height: 30vh;
-    
     text-align: center;
 }
 
@@ -376,7 +399,9 @@ body {
     .header-mobile {
         height: 7vh;
         background: black;  }
-} 
+        
+}
+    
         /* medias for tabel users */ 
 @media(min-width: 992px) { 
     .navtext li a {

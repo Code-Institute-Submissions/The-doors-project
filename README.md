@@ -18,9 +18,9 @@ Finally finishing on something that i think looks good, both on mobile and pc, a
 issues nor is totally ugly to look at. the wireframes i used at first were pretty quick mock ups after looking at a few sites i ended up pretty 
 much going in my own direction with the idea in my head. 
 -wireframes used- 
-https://gyazo.com/cb1f55457db55372850d7f4d2bfe1edf
-https://gyazo.com/9476b39d649b304bd528f8f6ee61b727
-https://gyazo.com/0f16d00dd6b75ea411aa2debc4115e34
+/images/Mockup1.png
+/images/mockup2.png
+/images/mockup3.png
 as you can see i from my wireframes i first came up with and my final webpage had changed a fair bit, making things more simple for myself.
 
 <h2> Features </h2>
