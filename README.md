@@ -19,6 +19,7 @@ issues nor is totally ugly to look at. the wireframes i used at first were prett
 much going in my own direction with the idea in my head. 
 
 -wireframes used- 
+
 https://github.com/swinabc/The-doors-project/blob/master/images/Mockup1.png
 
 https://github.com/swinabc/The-doors-project/blob/master/images/mockup2.png
