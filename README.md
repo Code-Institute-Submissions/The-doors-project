@@ -17,11 +17,14 @@ then desktop but i wanted to keep it simple aswell. Many times i had to redo pag
 Finally finishing on something that i think looks good, both on mobile and pc, and while the images on tablet could be better its not causing any
 issues nor is totally ugly to look at. the wireframes i used at first were pretty quick mock ups after looking at a few sites i ended up pretty 
 much going in my own direction with the idea in my head. 
+
 -wireframes used- 
 https://github.com/swinabc/The-doors-project/blob/master/images/Mockup1.png
+
 https://github.com/swinabc/The-doors-project/blob/master/images/mockup2.png
+
 https://github.com/swinabc/The-doors-project/blob/master/images/mockup3.png
-/images/mockup3.png
+
 as you can see i from my wireframes i first came up with and my final webpage had changed a fair bit, making things more simple for myself.
 
 <h2> Features </h2>
